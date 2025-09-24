@@ -1,0 +1,23 @@
+Mall Customers dataset cleaning summary
+--------------------------------------
+Initial shape: (200, 9)
+Duplicate rows removed: 0
+
+Missing values before cleaning:
+customerid              0
+gender                  0
+age                     0
+annual_income_k$        0
+spending_score_1_100    0
+
+Missing values after cleaning:
+customerid              0
+gender                  0
+age                     0
+annual_income_k$        0
+spending_score_1_100    0
+
+Outlier columns flagged (IQR): ['customerid', 'age', 'annual_income_k$', 'spending_score_1_100']
+
+Files:
+- cleaned CSV: task1_outputs\cleaned_mall_customers.csv
